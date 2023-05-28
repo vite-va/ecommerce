@@ -1,0 +1,25 @@
+{
+  "name": "tipjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.3",
+    "helmet": "^6.1.5",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0"
+  }
+}
